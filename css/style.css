@@ -1,0 +1,212 @@
+.ov-buff {
+  overflow: hidden; }
+
+li {
+  margin: 5px 10px; }
+  li #signup {
+    color: #2c3e50;
+    padding: 10px 20px;
+    border: 1px solid #2c3e50;
+    transition: all 1s ease; }
+    li #signup:focus {
+      background-color: white;
+      outline: none; }
+  li #login {
+    color: white;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    border: 1px solid #2c3e50; }
+
+#brand {
+  position: absolute;
+  background-image: url("https://d13yacurqjgara.cloudfront.net/users/298864/screenshots/1653384/kw_1x.png");
+  background-size: 100%;
+  background-position: 20px;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 150px; }
+
+.footer-distributed {
+  background-color: #2c3e50;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  font: bold 16px sans-serif;
+  text-align: center;
+  padding: 50px 60px 40px;
+  margin-top: 80px;
+  overflow: hidden; }
+  .footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0 0 10px; }
+    .footer-distributed h3 span {
+      color: #5383d3; }
+  .footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0; }
+    .footer-distributed .footer-links a {
+      display: inline-block;
+      line-height: 1.8;
+      text-decoration: none;
+      color: inherit; }
+  .footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0; }
+  .footer-distributed .footer-icons {
+    margin-top: 20px; }
+    .footer-distributed .footer-icons a {
+      display: inline-block;
+      width: 75px;
+      height: 75px;
+      cursor: pointer;
+      background-color: #2c3e50;
+      border-radius: 100px;
+      border: 1px solid white;
+      font-size: 20px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 35px;
+      margin-right: 3px;
+      margin-bottom: 5px; }
+      .footer-distributed .footer-icons a i {
+        padding: 35%; }
+  .footer-distributed ::-webkit-input-placeholder {
+    color: black; }
+  .footer-distributed ::-moz-placeholder {
+    color: #5c666b;
+    opacity: 1; }
+  .footer-distributed :-ms-input-placeholder {
+    color: #5c666b; }
+
+@media (max-width: 1000px) {
+  .footer-distributed {
+    font: bold 14px sans-serif; }
+    .footer-distributed .footer-company-name {
+      font-size: 12px; }
+    .footer-distributed form input, .footer-distributed form textarea {
+      width: 250px; }
+    .footer-distributed form button {
+      padding: 10px 35px; } }
+
+@media (max-width: 800px) {
+  .footer-distributed {
+    padding: 30px; }
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+      float: none;
+      max-width: 300px;
+      margin: 0 auto; }
+    .footer-distributed .footer-left {
+      margin-bottom: 40px; }
+    .footer-distributed form {
+      margin-top: 30px;
+      display: block; }
+      .footer-distributed form button {
+        float: none; } }
+
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  msrgin: 0;
+  padding: 0; }
+
+.con-buff {
+  max-width: 1080px; }
+
+.img-cont {
+  height: 600px;
+  margin: 2em 0;
+  overflow: hidden; }
+  .img-cont a h1 {
+    top: 40%;
+    left: 40%;
+    color: black;
+    font-weight: bold;
+    opacity: 0;
+    position: absolute;
+    transition: all 1s ease; }
+  .img-cont a #tutorial {
+    background-image: url("http://goodereader.com/blog/uploads/images/ebooks_2.jpg");
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    transition: all 1s ease; }
+    .img-cont a #tutorial:hover {
+      opacity: .7;
+      background-size: 215%;
+      filter: blur(3px); }
+    .img-cont a #tutorial:hover + h1 {
+      opacity: 1; }
+  .img-cont a #game {
+    background-image: url("https://picjumbo.com/wp-content/uploads/HNCK4530.jpg");
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    transition: all 1s ease; }
+    .img-cont a #game:hover {
+      opacity: .7;
+      background-size: 215%;
+      filter: blur(3px); }
+    .img-cont a #game:hover + h1 {
+      opacity: 1; }
+
+#lessons {
+  margin-top: 50px;
+  height: 500px;
+  width: 100%;
+  background-color: #ecf0f1; }
+  #lessons .lesson-cont {
+    margin: 0 .5px;
+    height: 400px;
+    width: 30%;
+    left: 5%; }
+    #lessons .lesson-cont h3 {
+      text-align: center; }
+    #lessons .lesson-cont #html {
+      background-image: url("https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png");
+      background-size: 85%;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+      transform: scale(0.5, 0.5);
+      margin-bottom: -20%; }
+    #lessons .lesson-cont #css {
+      background-image: url("http://www.myiconfinder.com/uploads/iconsets/8b61de4c84033266e15317a6eb9fda2d-css3.png");
+      background-size: 95%;
+      background-position: 0 -15px;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+      transform: scale(0.5, 0.5);
+      margin-bottom: -20%; }
+    #lessons .lesson-cont #js {
+      background-image: url("https://www.voice-group.co.uk/wp-content/uploads/voice_group_web-languages-logos-javascript.png");
+      background-size: 60%;
+      background-position: 30px 0;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+      transform: scale(0.5, 0.5);
+      margin-bottom: -20%; }
+
+#introduction {
+  margin-top: 50px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px; }
+  #introduction div div {
+    width: 300px;
+    padding-left: 50px; }
+    #introduction div div h2 {
+      text-align: right;
+      font-weight: bold; }
+    #introduction div div h4 {
+      text-align: right; }

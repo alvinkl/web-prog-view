@@ -1,0 +1,52 @@
+.buffer {
+  margin-bottom: -5%;
+  width: 800px; }
+  .buffer form {
+    padding: 10%; }
+    .buffer form input {
+      width: 50%;
+      margin: 0 auto;
+      border-bottom: 1px solid #aabed1;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      vertical-align: bottom;
+      outline: none;
+      box-shadow: none;
+      transition: 1s; }
+      .buffer form input::-webkit-input-placeholder {
+        color: #2c3e50; }
+      .buffer form input:-moz-placeholder {
+        /* Firefox 18- */
+        color: #2c3e50; }
+      .buffer form input::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #2c3e50; }
+      .buffer form input:-ms-input-placeholder {
+        color: #2c3e50; }
+      .buffer form input:focus {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-color: #2c3e50;
+        transition: 2s; }
+        .buffer form input:focus::-webkit-input-placeholder {
+          color: #aabed1; }
+        .buffer form input:focus:-moz-placeholder {
+          /* Firefox 18- */
+          color: #aabed1; }
+        .buffer form input:focus::-moz-placeholder {
+          /* Firefox 19+ */
+          color: #aabed1; }
+        .buffer form input:focus:-ms-input-placeholder {
+          color: #aabed1; }
+    .buffer form .check-buffer {
+      width: inherit; }
+      .buffer form .check-buffer .checkbox {
+        width: 50%;
+        margin: 0 auto; }
+    .buffer form .btn-login {
+      color: white;
+      margin-top: 10px;
+      padding: 5px 20px;
+      background-color: #2c3e50;
+      border: 1px solid #2c3e50; }
